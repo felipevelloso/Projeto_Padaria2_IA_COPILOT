@@ -1,0 +1,1 @@
+# Projeto_Padaria2_IA_COPILOT
