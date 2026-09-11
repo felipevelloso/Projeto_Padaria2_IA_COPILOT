@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Padaria & Confeitaria Acolhedora</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-wheat-awn"></i>
+        <span>Bella Sabor</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#especiais">Especiais</a></li>
+          <li><a href="#horarios">Horários</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Sabor, Tradição e Acolhimento</h1>
+        <p>
+          Sinta o aroma do pão quentinho a qualquer hora do dia. Uma experiência
+          artesanal feita com amor para você.
+        </p>
+        <a href="#cardapio" class="btn-primary">Ver Cardápio</a>
+      </div>
+    </section>
+
+    <section id="cardapio" class="container">
+      <h2>Nosso Cardápio</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="todos">Todos</button>
+        <button class="filter-btn" data-category="padaria">Padaria</button>
+        <button class="filter-btn" data-category="doces">Confeitaria</button>
+        <button class="filter-btn" data-category="bebidas">Bebidas</button>
+        <button class="filter-btn" data-category="buffet">
+          Buffet & Almoço
+        </button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid"></div>
+    </section>
+
+    <section id="especiais" class="bg-alt container">
+      <h2>Dias e Cardápios Especiais</h2>
+      <div class="specials-grid">
+        <div class="special-card">
+          <i class="fa-solid fa-cloud-moon"></i>
+          <h3>Festival de Sopas</h3>
+          <p><strong>Quarta e Quinta-Feira</strong></p>
+          <p>
+            Variedade de caldos e sopas servidos no pão italiano artesanal a
+            partir das 18h.
+          </p>
+        </div>
+        <div class="special-card">
+          <i class="fa-solid fa-utensils"></i>
+          <h3>Feijoada Completa</h3>
+          <p><strong>Quarta e Sábado</strong></p>
+          <p>
+            A tradicional feijoada brasileira com acompanhamentos artesanais no
+            almoço.
+          </p>
+        </div>
+        <div class="special-card">
+          <i class="fa-solid fa-mug-hot"></i>
+          <h3>Brunch de Domingo</h3>
+          <p><strong>Domingos e Feriados</strong></p>
+          <p>
+            Buffet completo de pães, frios, waffles, omeletes e geleias caseiras
+            até às 15h.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="horarios" class="container">
+      <h2>Horário de Funcionamento</h2>
+      <div class="status-card" id="status-card">
+        <span id="status-indicator"></span>
+        <span id="status-text">Verificando horário...</span>
+      </div>
+      <div class="hours-info">
+        <p>
+          <i class="fa-regular fa-clock"></i>
+          <strong>Segunda a Domingo:</strong> Funcional das 06h00 às 23h00
+        </p>
+        <p>
+          <i class="fa-solid fa-bread-slice"></i>
+          <strong>Fornadas de Pão Francês:</strong> A cada 30 minutos
+        </p>
+      </div>
+    </section>
+
+    <footer id="contato">
+      <div class="footer-content">
+        <h3>Venha nos visitar ou faça seu pedido</h3>
+        <div class="social-links">
+          <a
+            href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido."
+            target="_blank"
+            class="social-btn whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            class="social-btn instagram"
+          >
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            class="social-btn facebook"
+          >
+            <i class="fa-brands fa-facebook-f"></i> Facebook
+          </a>
+        </div>
+        <p class="address">
+          <i class="fa-solid fa-location-dot"></i> Rua dos Aromas, 1000 -
+          Centro, São Paulo - SP
+        </p>
+        <p class="copyright">
+          &copy; 2026 Bella Sabor. Desenvolvido para oferecer a melhor
+          experiência.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
